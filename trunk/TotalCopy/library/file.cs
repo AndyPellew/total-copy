@@ -33,6 +33,14 @@ namespace TotalCopy
                     MemoryDir + file.FullName.Replace(":", "").Replace(@"\", "") + ".txt";
 
                 Boolean Exists = File.Exists(MemoryFile);
+                if (Exists)
+                {
+                    TextReader tr = new StreamReader(MemoryFile);
+                    String MD5 = tr.ReadLine();
+                    tr.Close();
+
+                    Exists = (GetMD5HashFromFile(file.FullName) == MD5);
+                }
                 foreach (DirectoryInfo Target in Targets)
                     foreach (FileInfo TargetFile in Target.GetFiles())
                         if (TargetFile.Name == file.Name)
