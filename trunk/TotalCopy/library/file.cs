@@ -21,9 +21,9 @@ namespace TotalCopy
 
         public static void CopyDirectory(DirectoryInfo Source, DirectoryInfo[] Targets, String RootDir, String MemoryDir)
         {
-            foreach (DirectoryInfo Target in Targets)
-                if (!Target.Exists)
-                    Target.Create();
+            //foreach (DirectoryInfo Target in Targets)
+            //    if (!Target.Exists)
+            //        Target.Create();
 
             // Copy all files
             FileInfo[] files = Source.GetFiles();
@@ -42,9 +42,10 @@ namespace TotalCopy
                     Exists = (GetMD5HashFromFile(file.FullName) == MD5);
                 }
                 foreach (DirectoryInfo Target in Targets)
-                    foreach (FileInfo TargetFile in Target.GetFiles())
-                        if (TargetFile.Name == file.Name)
-                            Exists = true;
+                    if (Target.Exists)
+                        foreach (FileInfo TargetFile in Target.GetFiles())
+                            if (TargetFile.Name == file.Name)
+                                Exists = true;
 
                 Boolean Copied = false;
                 if (!Exists)
@@ -54,6 +55,9 @@ namespace TotalCopy
                         {
                             try
                             {
+                                Directory.CreateDirectory(
+                                    Target.FullName);
+
                                 file.CopyTo(
                                     Path.Combine(
                                         Target.FullName,
