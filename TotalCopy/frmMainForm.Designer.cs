@@ -31,20 +31,21 @@
             this.btnBeginCopy = new System.Windows.Forms.Button();
             this.lblSourceDir = new System.Windows.Forms.Label();
             this.tbSourceDir = new System.Windows.Forms.TextBox();
-            this.gbxTargetDirectories = new System.Windows.Forms.GroupBox();
-            this.tbTargetDirList = new System.Windows.Forms.TextBox();
-            this.lblMemoryDir = new System.Windows.Forms.Label();
-            this.tbMemoryDir = new System.Windows.Forms.TextBox();
-            this.gbxTargetDirectories.SuspendLayout();
+            this.gbxFirstTarget = new System.Windows.Forms.GroupBox();
+            this.tbFirstTargetDirList = new System.Windows.Forms.TextBox();
+            this.gbxSecondTarget = new System.Windows.Forms.GroupBox();
+            this.tbSecondTargetDirList = new System.Windows.Forms.TextBox();
+            this.gbxFirstTarget.SuspendLayout();
+            this.gbxSecondTarget.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnBeginCopy
             // 
-            this.btnBeginCopy.Location = new System.Drawing.Point(13, 190);
+            this.btnBeginCopy.Location = new System.Drawing.Point(12, 161);
             this.btnBeginCopy.Name = "btnBeginCopy";
-            this.btnBeginCopy.Size = new System.Drawing.Size(75, 23);
+            this.btnBeginCopy.Size = new System.Drawing.Size(107, 23);
             this.btnBeginCopy.TabIndex = 0;
-            this.btnBeginCopy.Text = "Begin";
+            this.btnBeginCopy.Text = "Start Filecopy";
             this.btnBeginCopy.UseVisualStyleBackColor = true;
             this.btnBeginCopy.Click += new System.EventHandler(this.btnBeginCopy_Click);
             // 
@@ -65,62 +66,66 @@
             this.tbSourceDir.TabIndex = 2;
             this.tbSourceDir.Text = "C:\\DOMAINADMIN\\";
             // 
-            // gbxTargetDirectories
+            // gbxFirstTarget
             // 
-            this.gbxTargetDirectories.Controls.Add(this.tbTargetDirList);
-            this.gbxTargetDirectories.Location = new System.Drawing.Point(13, 68);
-            this.gbxTargetDirectories.Name = "gbxTargetDirectories";
-            this.gbxTargetDirectories.Size = new System.Drawing.Size(460, 116);
-            this.gbxTargetDirectories.TabIndex = 3;
-            this.gbxTargetDirectories.TabStop = false;
-            this.gbxTargetDirectories.Text = "Target Directories:";
+            this.gbxFirstTarget.Controls.Add(this.tbFirstTargetDirList);
+            this.gbxFirstTarget.Location = new System.Drawing.Point(13, 39);
+            this.gbxFirstTarget.Name = "gbxFirstTarget";
+            this.gbxFirstTarget.Size = new System.Drawing.Size(365, 116);
+            this.gbxFirstTarget.TabIndex = 3;
+            this.gbxFirstTarget.TabStop = false;
+            this.gbxFirstTarget.Text = "Target Directories (Set 1):";
             // 
-            // tbTargetDirList
+            // tbFirstTargetDirList
             // 
-            this.tbTargetDirList.AcceptsReturn = true;
-            this.tbTargetDirList.Location = new System.Drawing.Point(6, 19);
-            this.tbTargetDirList.Multiline = true;
-            this.tbTargetDirList.Name = "tbTargetDirList";
-            this.tbTargetDirList.Size = new System.Drawing.Size(448, 91);
-            this.tbTargetDirList.TabIndex = 0;
-            this.tbTargetDirList.Text = "C:\\DOMAINADMIN_1\\\r\nC:\\DOMAINADMIN_2\\";
-            this.tbTargetDirList.WordWrap = false;
+            this.tbFirstTargetDirList.AcceptsReturn = true;
+            this.tbFirstTargetDirList.Location = new System.Drawing.Point(6, 19);
+            this.tbFirstTargetDirList.Multiline = true;
+            this.tbFirstTargetDirList.Name = "tbFirstTargetDirList";
+            this.tbFirstTargetDirList.Size = new System.Drawing.Size(353, 91);
+            this.tbFirstTargetDirList.TabIndex = 0;
+            this.tbFirstTargetDirList.Text = "C:\\DOMAINADMIN_1\\\r\nC:\\DOMAINADMIN_2\\";
+            this.tbFirstTargetDirList.WordWrap = false;
             // 
-            // lblMemoryDir
+            // gbxSecondTarget
             // 
-            this.lblMemoryDir.AutoSize = true;
-            this.lblMemoryDir.Location = new System.Drawing.Point(14, 41);
-            this.lblMemoryDir.Name = "lblMemoryDir";
-            this.lblMemoryDir.Size = new System.Drawing.Size(92, 13);
-            this.lblMemoryDir.TabIndex = 4;
-            this.lblMemoryDir.Text = "Memory Directory:";
-            this.lblMemoryDir.Click += new System.EventHandler(this.label1_Click);
+            this.gbxSecondTarget.Controls.Add(this.tbSecondTargetDirList);
+            this.gbxSecondTarget.Location = new System.Drawing.Point(384, 39);
+            this.gbxSecondTarget.Name = "gbxSecondTarget";
+            this.gbxSecondTarget.Size = new System.Drawing.Size(365, 116);
+            this.gbxSecondTarget.TabIndex = 6;
+            this.gbxSecondTarget.TabStop = false;
+            this.gbxSecondTarget.Text = "Target Directories (Set 2):";
             // 
-            // tbMemoryDir
+            // tbSecondTargetDirList
             // 
-            this.tbMemoryDir.Location = new System.Drawing.Point(109, 39);
-            this.tbMemoryDir.Name = "tbMemoryDir";
-            this.tbMemoryDir.Size = new System.Drawing.Size(364, 20);
-            this.tbMemoryDir.TabIndex = 5;
-            this.tbMemoryDir.Text = "C:\\DOMAINADMIN\\";
+            this.tbSecondTargetDirList.AcceptsReturn = true;
+            this.tbSecondTargetDirList.Location = new System.Drawing.Point(6, 19);
+            this.tbSecondTargetDirList.Multiline = true;
+            this.tbSecondTargetDirList.Name = "tbSecondTargetDirList";
+            this.tbSecondTargetDirList.Size = new System.Drawing.Size(353, 91);
+            this.tbSecondTargetDirList.TabIndex = 0;
+            this.tbSecondTargetDirList.Text = "C:\\DOMAINADMIN_1\\\r\nC:\\DOMAINADMIN_2\\";
+            this.tbSecondTargetDirList.WordWrap = false;
             // 
             // frmMainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(480, 225);
-            this.Controls.Add(this.tbMemoryDir);
-            this.Controls.Add(this.lblMemoryDir);
-            this.Controls.Add(this.gbxTargetDirectories);
+            this.ClientSize = new System.Drawing.Size(762, 192);
+            this.Controls.Add(this.gbxSecondTarget);
+            this.Controls.Add(this.gbxFirstTarget);
             this.Controls.Add(this.tbSourceDir);
             this.Controls.Add(this.lblSourceDir);
             this.Controls.Add(this.btnBeginCopy);
             this.Name = "frmMainForm";
-            this.Text = "Total Copy V0.2";
+            this.Text = "Total Copy V0.3";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmMainForm_FormClosing);
             this.Load += new System.EventHandler(this.frmMainForm_Load);
-            this.gbxTargetDirectories.ResumeLayout(false);
-            this.gbxTargetDirectories.PerformLayout();
+            this.gbxFirstTarget.ResumeLayout(false);
+            this.gbxFirstTarget.PerformLayout();
+            this.gbxSecondTarget.ResumeLayout(false);
+            this.gbxSecondTarget.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -131,10 +136,10 @@
         private System.Windows.Forms.Button btnBeginCopy;
         private System.Windows.Forms.Label lblSourceDir;
         private System.Windows.Forms.TextBox tbSourceDir;
-        private System.Windows.Forms.GroupBox gbxTargetDirectories;
-        private System.Windows.Forms.TextBox tbTargetDirList;
-        private System.Windows.Forms.Label lblMemoryDir;
-        private System.Windows.Forms.TextBox tbMemoryDir;
+        private System.Windows.Forms.GroupBox gbxFirstTarget;
+        private System.Windows.Forms.TextBox tbFirstTargetDirList;
+        private System.Windows.Forms.GroupBox gbxSecondTarget;
+        private System.Windows.Forms.TextBox tbSecondTargetDirList;
     }
 }
 

@@ -5,10 +5,10 @@
     <Setting Name="SourceDir" Type="System.String" Scope="User">
       <Value Profile="(Default)">C:\</Value>
     </Setting>
-    <Setting Name="TargetDir" Type="System.String" Scope="User">
+    <Setting Name="FirstTargetDir" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
-    <Setting Name="MemoryDir" Type="System.String" Scope="User">
+    <Setting Name="SecondTargetDir" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
   </Settings>

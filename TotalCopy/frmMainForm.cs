@@ -19,37 +19,46 @@ namespace TotalCopy
 
         private void btnBeginCopy_Click(object sender, EventArgs e)
         {
+            File.Delete(Path.GetDirectoryName(Application.ExecutablePath) + @"\Log.txt");
+
             DirectoryInfo Source = new DirectoryInfo(tbSourceDir.Text);
             DirectoryInfo[] Targets;
-            Targets = new DirectoryInfo[tbTargetDirList.Lines.Count()];
+            Targets = new DirectoryInfo[tbFirstTargetDirList.Lines.Count()];
 
             int DirCount = 0;
-            foreach (string Line in tbTargetDirList.Lines)
+            foreach (string Line in tbFirstTargetDirList.Lines)
             {
-                Targets[DirCount] = new DirectoryInfo(tbTargetDirList.Lines[DirCount]);
+                Targets[DirCount] = new DirectoryInfo(tbFirstTargetDirList.Lines[DirCount]);
                 DirCount = DirCount + 1;
             }
-            file.CopyDirectory(Source, Targets, tbSourceDir.Text, tbMemoryDir.Text);
+            file.CopyDirectory(Source, Targets, tbSourceDir.Text, Path.GetDirectoryName(Application.ExecutablePath) + @"\Memory\1\");
+
+            Source = new DirectoryInfo(tbSourceDir.Text);
+            Targets = new DirectoryInfo[tbSecondTargetDirList.Lines.Count()];
+
+            DirCount = 0;
+            foreach (string Line in tbFirstTargetDirList.Lines)
+            {
+                Targets[DirCount] = new DirectoryInfo(tbSecondTargetDirList.Lines[DirCount]);
+                DirCount = DirCount + 1;
+            }
+            file.CopyDirectory(Source, Targets, tbSourceDir.Text, Path.GetDirectoryName(Application.ExecutablePath) + @"\Memory\2\");
+
         }
 
         private void frmMainForm_FormClosing(object sender, FormClosingEventArgs e)
         {
             TotalCopy.Properties.Settings.Default.SourceDir = tbSourceDir.Text;
-            TotalCopy.Properties.Settings.Default.TargetDir = tbTargetDirList.Text;
-            TotalCopy.Properties.Settings.Default.MemoryDir = tbMemoryDir.Text;
+            TotalCopy.Properties.Settings.Default.FirstTargetDir = tbFirstTargetDirList.Text;
+            TotalCopy.Properties.Settings.Default.SecondTargetDir = tbSecondTargetDirList.Text;
             TotalCopy.Properties.Settings.Default.Save();
         }
 
         private void frmMainForm_Load(object sender, EventArgs e)
         {
             tbSourceDir.Text = TotalCopy.Properties.Settings.Default.SourceDir;
-            tbTargetDirList.Text = TotalCopy.Properties.Settings.Default.TargetDir;
-            tbMemoryDir.Text = TotalCopy.Properties.Settings.Default.MemoryDir;
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
+            tbFirstTargetDirList.Text = TotalCopy.Properties.Settings.Default.FirstTargetDir;
+            tbSecondTargetDirList.Text = TotalCopy.Properties.Settings.Default.SecondTargetDir;
         }
     }
 }
