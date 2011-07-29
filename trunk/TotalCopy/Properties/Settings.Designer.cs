@@ -38,24 +38,24 @@ namespace TotalCopy.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string TargetDir {
+        public string FirstTargetDir {
             get {
-                return ((string)(this["TargetDir"]));
+                return ((string)(this["FirstTargetDir"]));
             }
             set {
-                this["TargetDir"] = value;
+                this["FirstTargetDir"] = value;
             }
         }
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string MemoryDir {
+        public string SecondTargetDir {
             get {
-                return ((string)(this["MemoryDir"]));
+                return ((string)(this["SecondTargetDir"]));
             }
             set {
-                this["MemoryDir"] = value;
+                this["SecondTargetDir"] = value;
             }
         }
     }
