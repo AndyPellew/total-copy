@@ -60,5 +60,14 @@ namespace TotalCopy
             tbFirstTargetDirList.Text = TotalCopy.Properties.Settings.Default.FirstTargetDir;
             tbSecondTargetDirList.Text = TotalCopy.Properties.Settings.Default.SecondTargetDir;
         }
+
+        private void bSourceDir_Click(object sender, EventArgs e)
+        {
+            FolderBrowserDialog.SelectedPath = tbSourceDir.Text;
+            DialogResult result = FolderBrowserDialog.ShowDialog();
+            if (result == DialogResult.OK)
+                tbSourceDir.Text = FolderBrowserDialog.SelectedPath;
+                
+        }
     }
 }
