@@ -1,526 +1,278 @@
 START:C:\TotalCopyTest\
   Number of files in Source Directory: 3
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\Changelog.txt.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=22727
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\help.txt.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=34300
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\README.txt.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=3346
 START:C:\TotalCopyTest\bin
   Number of files in Source Directory: 3
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\binffmpeg.exe.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\bin
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=12433408
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\binffplay.exe.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\bin
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=12879360
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\binffprobe.exe.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\bin
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=12303872
 END:C:\TotalCopyTest\bin
 START:C:\TotalCopyTest\doc
   Number of files in Source Directory: 7
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\docdeveloper.h\tml.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\doc
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=34260
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\docfaq.html.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\doc
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=81107
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\docffmpeg.html.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\doc
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=256672
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\docffplay.html.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\doc
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=187005
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\docffprobe.htm\l.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\doc
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=78855
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\docgeneral.htm\l.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\doc
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=104418
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\doclibavfilter\.html.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\doc
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=103650
 END:C:\TotalCopyTest\doc
 START:C:\TotalCopyTest\licenses
   Number of files in Source Directory: 19
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\licensesbzlib.\txt.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\licenses
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=1943
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\licensesffmpeg\.txt.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\licenses
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=35821
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\licenseslibgsm\.txt.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\licenses
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=1485
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\licenseslibmp3\lame.txt.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\licenses
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=25765
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\licenseslibogg\.txt.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\licenses
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=1494
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\licenseslibope\ncore_amr.txt.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\licenses
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=10462
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\licenseslibope\njpeg.txt.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\licenses
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=1756
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\licensesliborc\.txt.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\licenses
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=3186
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\licenseslibrtm\p.txt.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\licenses
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=18326
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\licenseslibsch\roedinger.txt.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\licenses
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=15369
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\licenseslibsdl\.txt.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\licenses
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=24848
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\licenseslibspe\ex.txt.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\licenses
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=1809
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\licenseslibthe\ora.txt.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\licenses
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=1498
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\licenseslibvor\bis.txt.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\licenses
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=1498
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\licenseslibvpx\.txt.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\licenses
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=1526
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\licenseslibx26\4.txt.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\licenses
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=18332
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\licenseslibxvi\d.txt.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\licenses
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=18327
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\licensespolars\sl.txt.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\licenses
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=18326
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\licenseszlib.t\xt.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\licenses
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=1003
 END:C:\TotalCopyTest\licenses
 START:C:\TotalCopyTest\presets
   Number of files in Source Directory: 30
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\presetslibx264\-baseline.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=43
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\presetslibx264\-fast.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=322
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\presetslibx264\-faster.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=322
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\presetslibx264\-faster_firstpass.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=322
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\presetslibx264\-fast_firstpass.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=322
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\presetslibx264\-ipod320.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=83
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\presetslibx264\-ipod640.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=93
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\presetslibx264\-lossless_fast.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=266
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\presetslibx264\-lossless_max.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=292
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\presetslibx264\-lossless_medium.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=266
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\presetslibx264\-lossless_slow.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=280
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\presetslibx264\-lossless_slower.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=291
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\presetslibx264\-lossless_ultrafast.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=257
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\presetslibx264\-main.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=15
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\presetslibx264\-medium.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=306
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\presetslibx264\-medium_firstpass.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=306
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\presetslibx264\-placebo.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=335
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\presetslibx264\-placebo_firstpass.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=335
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\presetslibx264\-slow.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=322
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\presetslibx264\-slower.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=331
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\presetslibx264\-slower_firstpass.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=322
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\presetslibx264\-slow_firstpass.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=322
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\presetslibx264\-superfast.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=328
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\presetslibx264\-superfast_firstpass.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=328
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\presetslibx264\-ultrafast.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=337
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\presetslibx264\-ultrafast_firstpass.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=337
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\presetslibx264\-veryfast.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=322
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\presetslibx264\-veryfast_firstpass.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=322
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\presetslibx264\-veryslow.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=333
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\1\presetslibx264\-veryslow_firstpass.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest2\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=322
 END:C:\TotalCopyTest\presets
 END:C:\TotalCopyTest\
 START:C:\TotalCopyTest\
   Number of files in Source Directory: 3
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\Changelog.txt.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=22727
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\help.txt.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=34300
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\README.txt.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=3346
 START:C:\TotalCopyTest\bin
   Number of files in Source Directory: 3
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\binffmpeg.exe.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\bin
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=12433408
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\binffplay.exe.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\bin
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=12879360
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\binffprobe.exe.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\bin
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=12303872
 END:C:\TotalCopyTest\bin
 START:C:\TotalCopyTest\doc
   Number of files in Source Directory: 7
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\docdeveloper.h\tml.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\doc
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=34260
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\docfaq.html.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\doc
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=81107
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\docffmpeg.html.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\doc
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=256672
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\docffplay.html.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\doc
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=187005
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\docffprobe.htm\l.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\doc
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=78855
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\docgeneral.htm\l.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\doc
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=104418
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\doclibavfilter\.html.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\doc
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=103650
 END:C:\TotalCopyTest\doc
 START:C:\TotalCopyTest\licenses
   Number of files in Source Directory: 19
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\licensesbzlib.\txt.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\licenses
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=1943
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\licensesffmpeg\.txt.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\licenses
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=35821
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\licenseslibgsm\.txt.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\licenses
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=1485
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\licenseslibmp3\lame.txt.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\licenses
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=25765
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\licenseslibogg\.txt.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\licenses
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=1494
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\licenseslibope\ncore_amr.txt.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\licenses
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=10462
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\licenseslibope\njpeg.txt.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\licenses
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=1756
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\licensesliborc\.txt.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\licenses
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=3186
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\licenseslibrtm\p.txt.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\licenses
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=18326
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\licenseslibsch\roedinger.txt.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\licenses
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=15369
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\licenseslibsdl\.txt.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\licenses
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=24848
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\licenseslibspe\ex.txt.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\licenses
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=1809
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\licenseslibthe\ora.txt.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\licenses
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=1498
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\licenseslibvor\bis.txt.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\licenses
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=1498
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\licenseslibvpx\.txt.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\licenses
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=1526
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\licenseslibx26\4.txt.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\licenses
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=18332
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\licenseslibxvi\d.txt.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\licenses
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=18327
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\licensespolars\sl.txt.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\licenses
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=18326
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\licenseszlib.t\xt.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\licenses
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=1003
 END:C:\TotalCopyTest\licenses
 START:C:\TotalCopyTest\presets
   Number of files in Source Directory: 30
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\presetslibx264\-baseline.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=43
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\presetslibx264\-fast.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=322
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\presetslibx264\-faster.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=322
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\presetslibx264\-faster_firstpass.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=322
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\presetslibx264\-fast_firstpass.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=322
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\presetslibx264\-ipod320.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=83
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\presetslibx264\-ipod640.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=93
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\presetslibx264\-lossless_fast.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=266
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\presetslibx264\-lossless_max.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=292
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\presetslibx264\-lossless_medium.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=266
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\presetslibx264\-lossless_slow.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=280
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\presetslibx264\-lossless_slower.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=291
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\presetslibx264\-lossless_ultrafast.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=257
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\presetslibx264\-main.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=15
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\presetslibx264\-medium.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=306
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\presetslibx264\-medium_firstpass.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=306
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\presetslibx264\-placebo.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=335
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\presetslibx264\-placebo_firstpass.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=335
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\presetslibx264\-slow.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=322
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\presetslibx264\-slower.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=331
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\presetslibx264\-slower_firstpass.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=322
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\presetslibx264\-slow_firstpass.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=322
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\presetslibx264\-superfast.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=328
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\presetslibx264\-superfast_firstpass.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=328
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\presetslibx264\-ultrafast.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=337
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\presetslibx264\-ultrafast_firstpass.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=337
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\presetslibx264\-veryfast.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=322
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\presetslibx264\-veryfast_firstpass.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=322
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\presetslibx264\-veryslow.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=333
   MemoryFile: C:\MyApps\total-copy\TotalCopy\bin\Debug\Memory\2\presetslibx264\-veryslow_firstpass.ffpreset.txt
-  ... Attempting to create directory: C:\TotalCopyTest4\presets
-  ... Performing the actual file copy
-  ... Saving the MD5 for the source file into the MemoryFile
+  File info for existing file: Length=322
 END:C:\TotalCopyTest\presets
 END:C:\TotalCopyTest\

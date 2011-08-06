@@ -58,5 +58,17 @@ namespace TotalCopy.Properties {
                 this["SecondTargetDir"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool UseMD5 {
+            get {
+                return ((bool)(this["UseMD5"]));
+            }
+            set {
+                this["UseMD5"] = value;
+            }
+        }
     }
 }

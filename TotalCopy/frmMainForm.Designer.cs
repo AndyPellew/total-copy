@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMainForm));
             this.btnBeginCopy = new System.Windows.Forms.Button();
             this.lblSourceDir = new System.Windows.Forms.Label();
             this.tbSourceDir = new System.Windows.Forms.TextBox();
@@ -35,6 +36,8 @@
             this.tbFirstTargetDirList = new System.Windows.Forms.TextBox();
             this.gbxSecondTarget = new System.Windows.Forms.GroupBox();
             this.tbSecondTargetDirList = new System.Windows.Forms.TextBox();
+            this.FolderBrowserDialog = new System.Windows.Forms.FolderBrowserDialog();
+            this.bSourceDir = new System.Windows.Forms.Button();
             this.gbxFirstTarget.SuspendLayout();
             this.gbxSecondTarget.SuspendLayout();
             this.SuspendLayout();
@@ -62,7 +65,7 @@
             // 
             this.tbSourceDir.Location = new System.Drawing.Point(109, 13);
             this.tbSourceDir.Name = "tbSourceDir";
-            this.tbSourceDir.Size = new System.Drawing.Size(364, 20);
+            this.tbSourceDir.Size = new System.Drawing.Size(602, 20);
             this.tbSourceDir.TabIndex = 2;
             this.tbSourceDir.Text = "C:\\DOMAINADMIN\\";
             // 
@@ -108,18 +111,30 @@
             this.tbSecondTargetDirList.Text = "C:\\DOMAINADMIN_1\\\r\nC:\\DOMAINADMIN_2\\";
             this.tbSecondTargetDirList.WordWrap = false;
             // 
+            // bSourceDir
+            // 
+            this.bSourceDir.Location = new System.Drawing.Point(717, 11);
+            this.bSourceDir.Name = "bSourceDir";
+            this.bSourceDir.Size = new System.Drawing.Size(32, 23);
+            this.bSourceDir.TabIndex = 7;
+            this.bSourceDir.Text = "...";
+            this.bSourceDir.UseVisualStyleBackColor = true;
+            this.bSourceDir.Click += new System.EventHandler(this.bSourceDir_Click);
+            // 
             // frmMainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(762, 192);
+            this.ClientSize = new System.Drawing.Size(762, 191);
+            this.Controls.Add(this.bSourceDir);
             this.Controls.Add(this.gbxSecondTarget);
             this.Controls.Add(this.gbxFirstTarget);
             this.Controls.Add(this.tbSourceDir);
             this.Controls.Add(this.lblSourceDir);
             this.Controls.Add(this.btnBeginCopy);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmMainForm";
-            this.Text = "Total Copy V0.3";
+            this.Text = "Total Copy V0.5";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmMainForm_FormClosing);
             this.Load += new System.EventHandler(this.frmMainForm_Load);
             this.gbxFirstTarget.ResumeLayout(false);
@@ -140,6 +155,8 @@
         private System.Windows.Forms.TextBox tbFirstTargetDirList;
         private System.Windows.Forms.GroupBox gbxSecondTarget;
         private System.Windows.Forms.TextBox tbSecondTargetDirList;
+        private System.Windows.Forms.FolderBrowserDialog FolderBrowserDialog;
+        private System.Windows.Forms.Button bSourceDir;
     }
 }
 

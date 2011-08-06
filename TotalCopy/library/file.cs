@@ -5,6 +5,7 @@ using System.Text;
 using System.IO;
 using System.Security.Cryptography;
 using System.Windows.Forms;
+using System.Web;
 
 namespace TotalCopy
 {
@@ -22,19 +23,6 @@ namespace TotalCopy
             sw.Close();
         }
 
-        public static string GetMD5HashFromFile(string FileName)
-        {
-            // The code is based on the tutorial "Calculate MD5 Checksum for a File" from
-            // http://sharpertutorials.com/calculate-md5-checksum-file/
-            //
-            FileStream FS = new FileStream(FileName, FileMode.Open);
-            MD5 md5 = new MD5CryptoServiceProvider();
-            byte[] retVal = md5.ComputeHash(FS);
-            FS.Close();
-            ASCIIEncoding enc = new ASCIIEncoding();
-            return enc.GetString(retVal);
-        }
-
         public static void CopyDirectory(DirectoryInfo Source, DirectoryInfo[] Targets, String RootDir, String MemoryDir)
         {
             LogText("START:" + Source.FullName);
@@ -44,25 +32,33 @@ namespace TotalCopy
             LogText("  Number of files in Source Directory: " + files.Count().ToString());
             foreach (FileInfo file in files)
             {
+                // Define the MemoryFile (the file we will use to allow us to track the details of a file we have
+                // previously copyied in the event that the destination is not available when we next do a
+                // backup).
+                // Directories are created just so that the number of files in the Memory directory does not
+                // become so large it affects performance.
                 String MemoryFile =
                     file.FullName.Replace(RootDir, "").Replace(":", "").Replace(@"\", "");
                 if (MemoryFile.Length > 14)
                     MemoryFile = MemoryFile.Insert(14, @"\");
                 MemoryFile = MemoryDir + MemoryFile + ".txt";
                 Directory.CreateDirectory(Path.GetDirectoryName(MemoryFile));
-
                 LogText("  MemoryFile: " + MemoryFile);
 
-                Boolean Exists = File.Exists(MemoryFile);
-                if (Exists)
+                // Get information on the file we are copying
+                FileInfo fiFile = new FileInfo(file.FullName);
+                LogText("  File info for existing file: Length=" + fiFile.Length.ToString());
+
+                Boolean Exists = File.Exists(MemoryFile); // Does the memory file already exist?
+                if (Exists) // ... If it does 
                 {
+                    // Read the info of the file we've already copied
                     TextReader tr = new StreamReader(MemoryFile);
-                    String MD5 = tr.ReadLine();
+                    long lFileLength = Int64.Parse(tr.ReadLine());
                     tr.Close();
-
-                    LogText("  ... Comparing saved MD5 file with MD5 from source file");
-
-                    Exists = (GetMD5HashFromFile(file.FullName) == MD5);
+                    LogText("  Memory file contents: Length=" + lFileLength.ToString());
+                    if (lFileLength == fiFile.Length) // Is the stored file length the same as the current file length?
+                        Exists = false;
                 }
                 foreach (DirectoryInfo Target in Targets)
                     if (Target.Exists)
@@ -89,21 +85,26 @@ namespace TotalCopy
                                         file.Name), 
                                     true);
 
-                                LogText("  ... Saving the MD5 for the source file into the MemoryFile");
+                                LogText("  ... Saving the file length for the source file into the MemoryFile");
+                                if (File.Exists(MemoryFile)) // If file exists ...
+                                    File.Delete(MemoryFile); // ... delete it
+
+                                // Format for the memory file; Line 1 = File size
                                 TextWriter tw = new StreamWriter(MemoryFile);
-                                tw.WriteLine(GetMD5HashFromFile(file.FullName));
+                                tw.WriteLine(fiFile.Length.ToString());
                                 tw.Close();
 
                                 Copied = true;
                             }
                             catch
                             {
+                                LogText("  ... File copy failed, further files will be attempted");
                             }
                         }
                     }
             }
 
-            // Process subdirectories.
+            // Process subdirectories (if any)
             DirectoryInfo[] DirList = Source.GetDirectories();
             foreach (DirectoryInfo Dir in DirList)
             {
