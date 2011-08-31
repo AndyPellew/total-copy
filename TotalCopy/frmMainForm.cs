@@ -69,5 +69,18 @@ namespace TotalCopy
                 tbSourceDir.Text = FolderBrowserDialog.SelectedPath;
                 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string MD5 = file.BuildMD5FromFile(@"C:\TotalCopyTest\README.txt");
+            string newString = "";
+            //string s;
+
+            for (int index = 0; index < MD5.Length; index++)
+                newString = newString + ";" + Convert.ToInt32(MD5[index]).ToString();
+            newString = newString + ";";
+
+            MD5 = MD5 + "j";
+        }
     }
 }

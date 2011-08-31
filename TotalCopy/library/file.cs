@@ -11,6 +11,58 @@ namespace TotalCopy
 {
     class file
     {
+        public static string BuildMD5FromFile(string fileName)
+        {
+            FileStream file = new FileStream(fileName, FileMode.Open);
+            MD5 md5 = new MD5CryptoServiceProvider();
+            byte[] retVal = md5.ComputeHash(file);
+            file.Close();
+
+            string Result = "";
+            for (int index = 0; index < retVal.Length; index++)
+                Result = Result + @"\" + retVal[index].ToString("X").PadLeft(2, '0');
+            Result = Result.Substring(1);
+
+            return Result;
+        }
+
+        public static void RecordCopy(string MemoryDir, string FileName)
+        {
+            LogText("MemoryDir: " + MemoryDir + ", Filename: " + FileName);
+            FileInfo fiFile = new FileInfo(FileName);
+
+            string MemoryFile = MemoryDir + @"\" + fiFile.Length.ToString() + @"\" + BuildMD5FromFile(FileName) + ".check";
+            Directory.CreateDirectory(Path.GetDirectoryName(MemoryFile));
+            TextWriter tw = new StreamWriter(MemoryFile);
+            tw.WriteLine("  ");
+            tw.Close();
+        }
+
+        public static bool FullCopyCheck(long FileSize, string MemoryDir, string FileMD5)
+        {
+            // Date: 08-AUG-2011
+            // Description: This checks to see if the file has already been copied based on an MD5 of the
+            //   file and the length of the file
+            bool Result = false;
+            if (Directory.Exists(MemoryDir + @"\" + FileSize.ToString()))
+                if (File.Exists(MemoryDir + @"\" + FileSize.ToString() + @"\" + FileMD5 + ".check"))
+                    Result = true;
+
+            return Result;
+        }
+
+        public static bool PartialCopyCheck(long FileSize, string MemoryDir, string FileMD5)
+        {
+            // Date: 08-AUG-2011
+            // Description: This checks to see if the file has already been copied based on just the
+            //   length of the file
+            bool Result = false;
+            if (Directory.Exists(MemoryDir + @"\" + FileSize.ToString()))
+                Result = true;
+
+            return Result;
+        }
+
         public static void LogText(string Text)
         {
             String LogFile = Path.GetDirectoryName(Application.ExecutablePath) + @"\Log.txt";
@@ -86,6 +138,9 @@ namespace TotalCopy
                                     true);
 
                                 LogText("  ... Saving the file length for the source file into the MemoryFile");
+                                RecordCopy(MemoryDir,
+                                    file.FullName);
+
                                 if (File.Exists(MemoryFile)) // If file exists ...
                                     File.Delete(MemoryFile); // ... delete it
 

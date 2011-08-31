@@ -38,6 +38,7 @@
             this.tbSecondTargetDirList = new System.Windows.Forms.TextBox();
             this.FolderBrowserDialog = new System.Windows.Forms.FolderBrowserDialog();
             this.bSourceDir = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.gbxFirstTarget.SuspendLayout();
             this.gbxSecondTarget.SuspendLayout();
             this.SuspendLayout();
@@ -121,11 +122,22 @@
             this.bSourceDir.UseVisualStyleBackColor = true;
             this.bSourceDir.Click += new System.EventHandler(this.bSourceDir_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(125, 161);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // frmMainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(762, 191);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.bSourceDir);
             this.Controls.Add(this.gbxSecondTarget);
             this.Controls.Add(this.gbxFirstTarget);
@@ -157,6 +169,7 @@
         private System.Windows.Forms.TextBox tbSecondTargetDirList;
         private System.Windows.Forms.FolderBrowserDialog FolderBrowserDialog;
         private System.Windows.Forms.Button bSourceDir;
+        private System.Windows.Forms.Button button1;
     }
 }
 
