@@ -1,0 +1,1 @@
+A windows application to allow your to, for example, backup your 4TB iTunes collection onto 4 1TB hard drives and to know which files have already been backed up and which haven't.
